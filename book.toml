@@ -1,0 +1,16 @@
+[book]
+authors = ["Soru Kumar"]
+language = "en"
+multilingual = false
+src = "src"
+title = "The Sowell Express"
+description = "A concise guide to Thomas Sowell's economic wisdom"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+git-repository-url = "https://github.com/sorukumar/TheSowellExpress"
+edit-url-template = "https://github.com/sorukumar/TheSowellExpress/edit/main/{path}"
+additional-css = ["theme/custom.css"]
+[preprocessor.mermaid]
+command = "mdbook-mermaid"

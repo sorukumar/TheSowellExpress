@@ -1,0 +1,41 @@
+/* Quote styling - Dark theme compatible */
+.sowell-quote {
+    border-left: 4px solid #4a9eff;
+    background: rgba(70, 70, 70, 0.3);  /* Darker, semi-transparent background */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    color: #e0e0e0;  /* Light text color */
+}
+
+.quote-source {
+    font-style: italic;
+    color: #b0b0b0;  /* Lighter grey for dark theme */
+    text-align: right;
+    margin-top: 10px;
+}
+
+/* Chapter styling */
+.chapter {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Headings for dark theme */
+h1, h2, h3 {
+    color: #4a9eff;  /* Light blue for dark theme */
+}
+
+/* Links for dark theme */
+a {
+    color: #4a9eff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #66b0ff;
+}
